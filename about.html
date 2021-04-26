@@ -1,110 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/style.css">
-	<script src="https://kit.fontawesome.com/94a6df5aee.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<body data-spy="scroll" data-target=".navbar" data-offset="50"></body>
 </head>
-
 <body>
-	<div class="row">
-		<div class="col-sm-4">
-			<a href="index.html">
-				<img src="assets/images/DP.jpg" alt="Man-Smiling-Open-To-Work" height="100px" width="100px">
-				<h1>Thomas & Partners</h1>
-			</a>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand" href="#introduction">Logo</a>
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a class="nav-link" href="#introduction">Introduction</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#game">Game</a>
+		  </li>
+			<li class="nav-item">	
+			<a class="nav-link" href="#about-us">About Us</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#contact-us">Contact Us </a>
+		  </li>
+		</ul>
+		<br>
+	</nav>
+
+	<div class="row" id="introduction">
+		<div class="col-sm-12 container">
+			<h2>Welcome to Monkey Business</h2>
+			<p>Monkey Business is a video game marketing agency, covering mobile, PC, and console gaming. With offices in London & Worcester, they help you plan and execute your marketing campaigns globally. Our team designs tailor-made creative assets, including PC & Mobile Javascript Games. They have a holistic approach to media and operate their marketing campaigns online and offline through PR, influencer marketing, TV advertising, digital advertising, and event. Wework directly with top gaming influencers on Facebook, Instagram, LinkedIn, Twitter, & Youtube to create exciting and targeted content to capture both new and old audiences.</p>
+			<h3>This is our mascot Mizaru, he is shy but try and pet him</h3>
+			<div class="monkey closed active">See No Evil</div>
+			<div class="monkey open"> Here No Evil</div>
+
 		</div>
 
-		<div class="col-sm-8">
-			<nav class="navbar navbar-expand-sm bg-light">
-
-
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="service.html">Service</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-
-			</nav>
-		</div>
 	</div>
-
-	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<h1>About</h1>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-sm-4">
-
-			<div class="card">
-				<div class="card-body">
-					<img src="assets/images/DP.jpg" alt="Man-Smiling-Open-To-Work">
-					<h2>Business Travel</h2>
-					<p>Thomas & Partners delivers corporate travel management for professionals with exacting needs. We
-						combine inspired service with state-of-the-art technology to create a level of travel management
-						like no other and deliver value you might not believe possible.
-					</p>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-body">
-					<img src="assets/images/DP.jpg" alt="Man-Smiling-Open-To-Work">
-					<h2>Meetings & Events</h2>
-					<p>Thomas & Partners delivers corporate travel management for professionals with exacting needs. We
-						combine inspired service with state-of-the-art technology to create a level of travel management
-						like no other and deliver value you might not believe possible.
-					</p>
-				</div>
-			</div>
+	<div class="row" id="game">
+		<div class="row container">
+			<h2>News of the week quiz</h2>
+			<p>This game tests your knowledge of this weeks news headlines, click start and see how in the know you are!</p>
 		</div>
 
-		<div class="col-sm-8">
-			<div class="card-body">
-				<img src="assets/images/DP.jpg" alt="Man-Smiling-Open-To-Work">
-				<h2>Emergency Service</h2>
-				<p>Thomas & Partners delivers corporate travel management for professionals with exacting needs. We
-					combine inspired service with state-of-the-art technology to create a level of travel management
-					like no other and deliver value you might not believe possible.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="jumbotron jumbotron-fluid">
 		<div class="row">
-			<div class="col-sm-4">
-				<h5>Customer Service</h5>
-				<p>Telephone : <a href="tel:+447581059340">0207-123-123</a> <i class="fas fa-phone"> </i> </p>
-				<p>Email : <a href="mailto:coopsx@googlemail.com">customer-service@thomaspartners.com</a>
-					<i class="fas fa-envelope"></i></p>
-
-			</div>
-
-			<div class="col-sm-8">
-				<h5>Follow Us</h5>
-				<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-				<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-				<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+			<div class="container">
+				<div class="question-container">
+					<div class="question">
+						<div class="answer-buttons">
+							<button class="btn">Answer 1</button>
+							<button class="btn">Answer 2</button>
+							<button class="btn">Answer 3</button>
+							<button class="btn">Answer 4</button>
+						</div>
+					</div>
+				</div>
+				<div class="controls">
+				</div>
 			</div>
 		</div>
 	</div>
+	<div class="row" id="about-us">
+		<div class="col-sm-6 container">
+			<h2>Check out our Git HUb</h2>
+			<p>check out past and prest projects on GitHub</p>
+			<div id="gh-user-data ">
 
+			</div>
+			<div id="gh-repo-data">
+			</div>
+		</div>
+		<div class="col-sm-6 container">
+			<h2>Our Offices</h2>
+			<a href="https://goo.gl/maps/9tHws8Q24ZNXrEvYA" target="_blank"><i class="fas fa-map-marked-alt"></i>HQ: 99, Hostel Henwick Road St Johns, Worcester WR2 5NY, United Kingdom</a>
+			<a href="https://goo.gl/maps/4PY1JoX3gJngmqoB7" target="_blank"><i class="fas fa-map-marked-alt"></i>Development Office: 12-14 Cotswold St, Norwood, London SE27 0DW, United Kingdom</a>
+			
+			<div id="gmap"></div>
+		</div>
+	</div>
+	<div class="row	" id="contact-us">
+		<div class="container">
+		<h2>Contact Us</h2>
+		<p>If you have an idea for a game or if you would like to speak with us about how we can make games that market your business</p>
+		<form>
+			<input type="text" name="name" placeholder="Your Name">
+			<input type="email" name="email" placeholder="Your Email">
+			<textarea name="message" id="message" cols="30" rows="10"></textarea>
+			<button type="submit" id="submit">Submit</button>
+		</form>
+		</div>
+	</div>
 
+	<footer>
+		<div class="row">
+			<div class="col-2m-4 container">
+				
+			</div>
+			<div class="col-2m-4 container">
+				
+			</div>
+			<div class="col-2m-4 container">
+				
+			</div>
+		</div>
+	</footer>
 </body>
-
 </html>
